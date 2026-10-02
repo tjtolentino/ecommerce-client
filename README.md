@@ -5,7 +5,7 @@
 [![Styling: Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4-38bdf8?style=flat&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![Bundler: Vite](https://img.shields.io/badge/Bundler-Vite%207-646cff?style=flat&logo=vite&logoColor=white)](https://vite.dev)
 
-A modern, high-performance eCommerce frontend built with **Bun**, **React 19**, **Tailwind CSS v4**, and **React Router v7**, connecting to a REST API backend.
+A modern, self-hosted eCommerce frontend built with **Bun**, **React 19**, **Tailwind CSS v4**, and **React Router v7**, connecting to a REST API backend.
 
 ![MSTCONNECT Store Presentation](images/marketplace.jpg)
 
