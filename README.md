@@ -11,15 +11,6 @@ A modern, high-performance eCommerce frontend built with **Bun**, **React 19**, 
 
 ---
 
-## ⚡ Why Bun First?
-
-This project is configured from the ground up to utilize **Bun** as its primary JavaScript runtime and package manager:
-- **Instant Package Installations**: Resolves and installs modules in milliseconds with native `bun.lock`.
-- **Integrated Tooling**: Uses `bunfig.toml` and native TypeScript/JSX preservation.
-- **Fast Build Times**: Powers Vite dev server and build pipelines with minimal memory overhead.
-
----
-
 ## 🌟 Features
 
 - **Product Catalog (`/products`)**: Real-time product search, category filtering (Electronics, Accessories, Books), live result counter, and quick-filter tabs.
