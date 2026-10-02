@@ -1,0 +1,9 @@
+# Bun configuration file
+# https://bun.sh/docs/runtime/bunfig
+
+[install]
+# Ensure bun.lock is always saved and updated
+save = true
+
+[run]
+# Enable bun shell / execution preferences
