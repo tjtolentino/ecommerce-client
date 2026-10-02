@@ -124,7 +124,8 @@ capstone3/
 
 ---
 
-## 📄 License & Rights
+## Author
 
-&copy; 2026 TJ Tolentino. All rights reserved.
+**TJ Tolentino**  
+MSTConnect Capstone 3 - E-Commerce Client
 
