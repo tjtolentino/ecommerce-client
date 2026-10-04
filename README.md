@@ -85,6 +85,23 @@ Preview the production build locally:
 bun run preview
 ```
 
+### 5. Docker Deployment
+
+Deploy the application using Docker Compose (based on Alpine Linux with Bun):
+
+```bash
+# Build and start container in detached mode
+docker compose up -d --build
+
+# View container logs
+docker compose logs -f
+
+# Stop container
+docker compose down
+```
+
+The application will be accessible at `http://localhost:4173` (or the port defined in your `.env`).
+
 ---
 
 ## 📁 Project Structure
@@ -93,6 +110,8 @@ bun run preview
 capstone3/
 ├── bunfig.toml              # Bun runtime & package configuration
 ├── bun.lock                 # Bun lockfile
+├── Dockerfile               # Alpine Linux + Bun container definition
+├── docker-compose.yml       # Docker Compose deployment configuration
 ├── package.json             # Scripts & dependencies (packageManager: bun@1.4.0)
 ├── vite.config.js           # Vite + React + @tailwindcss/vite integration
 ├── index.html               # Entry HTML with Google Fonts (Plus Jakarta Sans)
